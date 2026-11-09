@@ -23,7 +23,7 @@
         
         <!-- Penjualan Hari Ini -->
         <div class="card" style="padding: 1rem; border-color: rgba(59, 130, 246, 0.3);">
-            <div class="stat-label" style="font-size: 0.7rem;">Penjualan Hari BESOK</div>
+            <div class="stat-label" style="font-size: 0.7rem;">Penjualan Hari Ini</div>
             <div class="stat-value" style="font-size: 1.35rem; color: #60a5fa;">
                 Rp {{ number_format($todaySales, 0, ',', '.') }}
             </div>
